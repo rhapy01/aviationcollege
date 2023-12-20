@@ -1,0 +1,188 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+header img {
+    max-height: 60px; /* Adjust the height as needed */
+    margin-right: 100px; /* Adjust the margin as needed */
+}
+
+nav {
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+section {
+    padding: 20px;
+}
+
+/* Add this style for the welcome section */
+.welcome-section {
+    background-image: url('images/bcg1.jpg'); /* Replace with your image file path or URL */
+    background-size: cover;
+    background-position: center;
+    color: black;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Set the height to the full viewport height */
+}
+
+/* Style for the text content within the welcome section */
+.welcome-content {
+    max-width: 600px;
+}
+
+.welcome-content h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+
+
+/* Update this style for the courses section */
+/* Update this style for the courses section */
+/* Update this style for the courses section */
+.course-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    grid-template-rows: repeat(2, auto); /* 2 rows */
+    gap: 20px;
+    justify-items: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    text-align: center; /* Center text within each course */
+}
+
+/* Add this style for the "Enroll Now" button */
+/* Update this style for the courses section */
+/* Update this style for the courses section */
+#courses {
+    background-color: teal;
+    padding: 20px;
+    text-align: center; /* Center the heading */
+}
+
+.featured-courses-heading {
+    margin-bottom: 20px;
+}
+
+.course-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    grid-template-rows: repeat(2, auto); /* 2 rows */
+    gap: 20px;
+    justify-items: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+
+/* Add this style for each course */
+/* Update this style for each course */
+.course {
+    border: 2px solid #ddd; /* Border style */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center; /* Center text within each course */
+    position: relative; /* Add position relative for absolute positioning */
+}
+
+.course img {
+    max-width: 100%; /* Ensure the image doesn't exceed the container width */
+    border-radius: 8px; /* Optional: Add border-radius to the image */
+}
+
+/* Add this style for the "Enroll Now" button */
+.enroll-button {
+    position: absolute;
+    bottom: .0000081px; /* Adjust the distance from the bottom as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.enroll-button:hover {
+    background-color: #2980b9;
+}
+
+
+
+
+/* Add this style for the footer */
+/* Update this style for the footer */
+footer {
+    background-color: #333 ;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.connect-section,
+.quick-links {
+    flex: 1;
+    max-width: 45%;
+}
+
+.connect-section h3,
+.quick-links h3 {
+    margin-bottom: 10px;
+    color: whitesmoke;
+    text-decoration: none;
+    background-color: none;
+}
+
+.connect-section nav,
+.quick-links nav {
+    display: flex;
+    flex-direction: column;
+    background: local;
+}
+
+.connect-section nav a,
+.quick-links nav a {
+    text-decoration: none;
+    color: none;
+    background-color: none;
+    margin-bottom: 8px; /* Adjust spacing between links */
+}
+
+.connect-section nav a:last-child,
+.quick-links nav a:last-child {
+    margin-bottom: 0; /* Remove margin for the last link */
+}
+/* Hover styles */
+.connect-section nav a:hover,
+.quick-links nav a:hover {
+    color: #3498db; /* Change color on hover */
+}

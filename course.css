@@ -1,0 +1,131 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: teal; /* Background color for the entire page */
+}
+
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+header img {
+    max-height: 60px; /* Adjust the height as needed */
+    margin-right: 100px; /* Adjust the margin as needed */
+}
+
+nav {
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+section {
+    padding: 20px;
+}
+
+.course {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid rgb(141, 150, 150);
+    border-radius: 10px;
+    text-align: center;
+    background-color: teal; /* Background color for each course section */
+}
+
+.course img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.course h2 {
+    color: #0c0c0c;
+}
+
+.course p {
+    color: black;
+    margin-bottom: 15px;
+}
+
+.enroll-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0c0c0c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.enroll-button:hover {
+    background-color: #2980b9;
+}
+
+
+/* Update this style for the footer */
+footer {
+    background-color: #333 ;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.connect-section,
+.quick-links {
+    flex: 1;
+    max-width: 45%;
+}
+
+.connect-section h3,
+.quick-links h3 {
+    margin-bottom: 10px;
+    color: whitesmoke;
+    text-decoration: none;
+    background-color: none;
+}
+
+.connect-section nav,
+.quick-links nav {
+    display: flex;
+    flex-direction: column;
+    background: local;
+}
+
+.connect-section nav a,
+.quick-links nav a {
+    text-decoration: none;
+    color: none;
+    background-color: none;
+    margin-bottom: 8px; /* Adjust spacing between links */
+}
+
+.connect-section nav a:last-child,
+.quick-links nav a:last-child {
+    margin-bottom: 0; /* Remove margin for the last link */
+}
+/* Hover styles */
+.connect-section nav a:hover,
+.quick-links nav a:hover {
+    color: #3498db; /* Change color on hover */
+}
